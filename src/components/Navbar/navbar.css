@@ -1,0 +1,28 @@
+.heading {
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 97%;
+  display: flex;
+  position: fixed;
+  background: #495c83;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+}
+
+.heading-logo h3 {
+  color: aliceblue;
+  margin: 14px 0px 14px 0px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation .icon {
+  font-size: 2rem;
+  color: aliceblue;
+  padding: 0px 15px 0px 15px;
+}

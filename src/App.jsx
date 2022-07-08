@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { getProducts } from "./features/Products/productSlice";
+import Products from "./pages/Products/Products";
 
 function App() {
   const dispatch = useDispatch();
@@ -9,7 +10,11 @@ function App() {
     dispatch(getProducts());
   }, [dispatch]);
 
-  return <div className="App">Hi</div>;
+  return (
+    <div>
+      <Products />
+    </div>
+  );
 }
 
 export default App;
